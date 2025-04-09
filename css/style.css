@@ -1,7 +1,13 @@
 body {
     background-color: #d9cfbb;
+    overflow-x: hidden;
 }
 
+.container {
+    overflow-x: hidden;
+}
+
+/*cardapio*/
 .nav-cardapio {
     color: #0c4842;
     border-bottom: 1px solid #0c4842;
@@ -9,9 +15,7 @@ body {
 
 .menu-section {
     background-color: #fffaed;
-    border-radius: 12px;
     padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .menu-title {
@@ -21,6 +25,7 @@ body {
     text-align: center;
     margin-bottom: 30px;
     color: #3d2b1f;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .menu-category h5 {
@@ -58,4 +63,103 @@ body {
     max-height: 170px;
     width: 160px;
     object-fit: cover;
+}
+
+/*vinhos*/
+.menu-section-vinhos {
+    background-color: #00130b;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-title-vinhos {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: 3px 2px 3px rgba(0, 255, 85, 0.5);
+}
+
+.menu-item-vinhos {
+    margin-bottom: 15px;
+    background-color: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-vinhos h6 {
+    display: block;
+    color: #32da5c;
+}
+
+.menu-category-vinhos p {
+    font-size: 12px;
+    color: #fff;
+}
+
+.menu-price-vinhos {
+    color: #32da5c;
+    font-weight: bold;
+}
+
+.menu-image-vinhos {
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+/*programacao do dia*/
+.agenda-semanal {
+    background: rgb(0, 50, 45);
+    background: linear-gradient(90deg, rgba(0, 50, 45, 1) 0%, rgba(6, 22, 20, 1) 100%);
+    padding: 20px;
+}
+
+.agenda-semanal .menu-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.agenda-semanal span {
+    color: rgb(0, 255, 157);
+    font-weight: 700;
+}
+
+.programacao-do-dia {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.programacao-do-dia h6,
+.programacao-do-dia small {
+    color: #fff;
+}
+
+.dia-semana {
+    background-color: #0c4842;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.dia-semana-fechado {
+    background-color: #480c0c;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.dia-semana,
+.dia-semana-fechado {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 auto;
 }
