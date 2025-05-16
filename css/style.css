@@ -1,5 +1,5 @@
 body {
-    background-color: #d9cfbb;
+    background-color: #fffaed;
     overflow-x: hidden;
 }
 
@@ -32,11 +32,12 @@ body {
     font-weight: bold;
     letter-spacing: 1px;
     margin-top: 20px;
-    color: #8b4513;
+    color: #3d2b1f;
 }
 
 .menu-category p {
     font-size: 12px;
+    color: #3d2b1f;
 }
 
 .menu-item {
@@ -49,119 +50,48 @@ body {
 
 .menu-item h6 {
     display: block;
-    color: #4b3621;
+    color: #0c4842;
 }
 
 .menu-price {
-    color: #0c4842;
+    background-color: #0c4842;
+    color: #fff;
     font-weight: bold;
+    display: inline-block;
+    padding: 3px;
 }
 
 .menu-image {
-    margin: 0 auto;
-    border-radius: 100%;
-    max-height: 170px;
-    width: 160px;
+    width: 100%;
     object-fit: cover;
+    height: 350px;
+    margin-bottom: 10px;
 }
 
-/*drinks*/
-.menu-section-drinks {
-    background: rgb(94, 162, 121);
-    background: linear-gradient(170deg, rgba(94, 162, 121, 1) 0%, rgba(145, 255, 172, 1) 100%);
-    padding: 20px;
-}
-
-.menu-title-drinks {
-    font-size: 3rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #ffffff;
-    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
-}
-
-.menu-category-drinks h5 {
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-top: 20px;
-    color: #002c1d;
-    text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.5);
-}
-
-.menu-category-drinks p {
-    font-size: 12px;
-}
-
-.menu-item-drinks {
-    margin-bottom: 15px;
-    background-color: none;
-    border-radius: 10px;
-    padding: 10px;
-    border: 1px solid #002c1d;
-}
-
-.menu-item-drinks h6 {
-    display: block;
-    color: rgb(0, 8, 5);
-}
-
-.menu-price-drinks {
-    color: #0c4842;
-    font-weight: bold;
-}
-
-.menu-image-drink {
-    max-height: 370px;
-    width: 360px;
+.menu-image2 {
+    width: 100%;
+    height: 350px;
     object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #fffaed;
 }
 
-/*vinhos*/
-.menu-section-vinhos {
-    background: rgb(0, 50, 45);
-    background: linear-gradient(90deg, rgb(0, 27, 25) 0%, rgb(0, 8, 7) 100%);
-    padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.menu-title-vinhos {
-    font-size: 3rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #ffffff;
-    text-shadow: 3px 2px 3px rgba(0, 255, 85, 0.5);
-}
-
-.menu-item-vinhos {
-    margin-bottom: 15px;
-    background-color: none;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.menu-item-vinhos h6 {
-    display: block;
-    color: #32da5c;
-}
-
-.menu-category-vinhos p {
-    font-size: 12px;
-    color: #fff;
-}
-
-.menu-price-vinhos {
-    color: #32da5c;
-    font-weight: bold;
-}
-
-.menu-image-vinhos {
-    margin: 0 auto;
+.menu-image3 {
+    width: 100%;
+    height: 350px;
     object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.menu-image4 {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #fffaed;
 }
 
 /*programacao do dia*/
